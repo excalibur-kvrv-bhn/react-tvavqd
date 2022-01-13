@@ -5,6 +5,7 @@ const Counter = (props) => {
   const [count, setCount] = useIncrementHook(0);
   const [count1, setCount1] = useIncrementHook(0);
 
+  
   useEffect(() => {
     console.log(`${count} times was clicked`);
   }, [count]);
